@@ -1,6 +1,6 @@
 body{
     background-color: #F5EDF0;
-    margin: 15px; 
+    margin: 5vb; 
 }
 
 h1{
@@ -23,6 +23,22 @@ p{
 p.rightside{
     text-align: right;
     margin-left: 3vh;
+}
+
+p.rightside:hover{
+    background-color: #886F68;
+    color:#F5EDF0;
+    border-radius: 4px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+p.projectdesc:hover{
+    background-color: #886F68;
+    color:#F5EDF0;
+    border-radius: 4px;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 p.contact{
@@ -114,4 +130,5 @@ button:hover{
     color:#F5EDF0;
     border-radius: 4px;
     transform: scale(1.1);
+    cursor: pointer;
 }
